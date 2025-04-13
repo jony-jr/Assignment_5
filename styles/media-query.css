@@ -1,0 +1,144 @@
+/* Defalut Screen Laptop"" */
+
+/* For tablets */
+@media screen and (max-width: 1024px) {
+  /**** Home Section *****/
+  .home-cont {
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 90%;
+    text-align: center;
+  }
+  .home-info {
+    justify-content: center;
+  }
+  .home-cont picture {
+    width: 110%;
+  }
+  .home-cont h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .btn1 {
+    border-radius: 20px;
+  }
+
+  /* **********our Chef-Section******* */
+  .chef-cont {
+    width: 100%;
+  }
+  .chef-cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .card {
+    width: 45%;
+  }
+
+  /* ********Contact-form********** */
+  .fram iframe {
+    aspect-ratio: 16 / 9;
+  }
+  .input-grop {
+    flex-direction: column;
+  }
+  .input-grop input {
+    width: 100%;
+  }
+
+  /* *********Footer*********** */
+  footer {
+    background-repeat: repeat;
+  }
+  .foot-cont {
+    flex-wrap: wrap;
+  }
+  .foot-sec1 {
+    order: 1;
+    width: 45%;
+    flex-grow: 1;
+  }
+  .foot-sec2 {
+    order: 3;
+    width: 100%;
+  }
+  .foot-sec3 {
+    order: 2;
+    width: 45%;
+    flex-grow: 1;
+  }
+}
+
+/* For Phones */
+@media screen and (max-width: 768px) {
+  /**** Home Section *****/
+  .home {
+    height: 105vh;
+  }
+  .home-cont {
+    padding: 20px 0 50px;
+  }
+  .home-info {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .nav-cont ul li a {
+    display: none;
+  }
+
+  /***** our Chef-Section *******/
+  .card {
+    width: 100%;
+  }
+  .chef-tit p {
+    font-size: 25px;
+    margin: auto;
+  }
+  /* ****************** */
+  .info-card {
+    width: 100%;
+  }
+  .fram iframe {
+    aspect-ratio: 1 / 1;
+  }
+  .info-card i {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  /* ******footer*********** */
+  footer {
+    flex-direction: column;
+  }
+  .foot-sec1 {
+    order: 1;
+    width: 100%;
+    flex-grow: 1;
+  }
+  .foot-sec2 {
+    order: 2;
+    width: 100%;
+  }
+  .foot-sec3 {
+    order: 3;
+    width: 100%;
+    flex-grow: 1;
+  }
+}
+
+/* X-small phones */
+@media screen and (max-width: 320px) {
+  /**** Home Section *****/
+  .home {
+    height: 150vh;
+  }
+}
+/* for Desktop */
+@media screen and (min-width: 1280px) {
+  .gall-album {
+    column-count: 3;
+  }
+}
