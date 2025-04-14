@@ -3,6 +3,9 @@
 /* For tablets */
 @media screen and (max-width: 1024px) {
   /**** Home Section *****/
+  .home{
+    height: 100vh;
+  }
   .home-cont {
     justify-content: space-evenly;
     flex-direction: column-reverse;
@@ -15,11 +18,10 @@
     justify-content: center;
   }
   .home-cont picture {
-    width: 110%;
+    width: 90%;
   }
   .home-cont h2 {
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 50px;
   }
   .btn1 {
     border-radius: 20px;
@@ -76,7 +78,7 @@
 @media screen and (max-width: 768px) {
   /**** Home Section *****/
   .home {
-    height: 105vh;
+    height: 115vh;
   }
   .home-cont {
     padding: 20px 0 50px;
@@ -133,7 +135,7 @@
 @media screen and (max-width: 320px) {
   /**** Home Section *****/
   .home {
-    height: 150vh;
+    height: 170vh;
   }
 }
 /* for Desktop */

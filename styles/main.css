@@ -12,6 +12,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
+:root{
+  --font-primary: "Amatic SC", sans-serif;
+}
 
 /* ********** Nav ************ */
 nav {
@@ -101,6 +104,7 @@ nav {
 .home-cont h2 {
   font-size: 40px;
   color: #37373f;
+  font-family: var(--font-primary);
 }
 .home-cont p {
   color: #37373f;
@@ -206,6 +210,8 @@ nav {
 .main-tit p {
   color: #45484b;
   font-size: 30px;
+  font-family: var(--font-primary);
+  font-size: 50px;
 }
 .main-tit span {
   color: #ce1212;
