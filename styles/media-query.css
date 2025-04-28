@@ -84,6 +84,8 @@
   .home-cont picture {
     width: 100%;
   }
+  .home-cont picture img {
+    padding: 0px;}
   .home-cont {
     padding: 20px 0 50px;
   }
@@ -162,7 +164,7 @@
 @media screen and (max-width: 400px) {
   /**** Home Section *****/
   .home-cont picture {
-    width: 70%;
+    width: 100%;
   }
 }
 /* for Desktop */
